@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teclas</title>
+    <style>
+        body {
+            width: 100%;
+            height: 100vh;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            justify-items: center;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .D1 {
+            width: 80%;
+            height: 70vh;
+            background-color: rgb(234, 41, 144);
+            display: flex;
+            flex-direction: column;
+            justify-items: center;
+            justify-content: space-around;
+            align-items: center;
+            align-content: center;
+        }
+        .D2
+        {
+            width:96%;
+            height: 10vh;
+            background-color: rgb(216, 202, 202, 0.598);
+            display: flex;
+            flex-direction: row;
+            justify-items: center;
+            justify-content: space-around;
+            align-items: center;
+            align-content: center;
+        }
+        .D3
+        {
+            width:96%;
+            height: 50vh;
+            background-color: rgba(216, 202, 202, 0.598);
+            display: flex;
+            flex-direction: column;
+            justify-items: center;
+            justify-content: space-around;
+            align-items: center;
+            align-content: center;
+        }
+        .esc
+        {
+            width:6%;
+            height: 6vh;
+            background-color: rgb(3,3,3);
+            margin-left:5px ;
+            color: white;
+        }
+        .F1
+        {
+            width:6%;
+            height: 6vh;
+            background-color: rgb(3, 3, 3);
+            margin-left:5px ;
+            color: white;
+        }
+        .F2
+        {
+            width:6%;
+            height: 6vh;
+            background-color: rgb(3, 3, 3);
+            margin-left:5px ;
+            color: white;
+        }
+        .F3
+        {
+            width:6%;
+            height: 6vh;
+            background-color: rgb(3, 3, 3);
+            margin-left:5px ;
+            color: white;
+        }
+        .F4
+        {
+            width:6%;
+            height: 6vh;
+            background-color: rgb(3, 3, 3);
+            margin-left:5px ;
+            color: white;
+        }
+        .F5
+        {
+            width:6%;
+            height: 6vh;
+            background-color: rgb(3, 3, 3);
+            margin-left:5px ;
+            color: white;
+        }
+        .F6
+        {
+            width:6%;
+            height: 6vh;
+            background-color: rgb(3, 3, 3);
+            margin-left:5px ;
+            color: white;
+        }
+        .F7
+        {
+            width:6%;
+            height: 6vh;
+            background-color: rgb(3, 3, 3);
+            margin-left:5px ;
+            color: white;
+        }
+        .F8
+        {
+            width:6%;
+            height: 6vh;
+            background-color: rgb(3, 3, 3);
+            margin-left:5px ;
+            color: white;
+        }
+        .F9
+        {
+            width:6%;
+            height: 6vh;
+            background-color: rgb(3, 3, 3);
+            margin-left:5px ;
+            color: white;
+        }
+        .F10
+        {
+            width:6%;
+            height: 6vh;
+            background-color: rgb(3, 3, 3);
+            margin-left:5px ;
+            color: white;
+        }
+        .F11
+        {
+            width:6%;
+            height: 6vh;
+            background-color: rgb(3, 3, 3);
+            margin-left:5px ;
+            color: white;
+        }
+        .F12
+        {
+            width:6%;
+            height: 6vh;
+            background-color: rgb(3, 3, 3);
+            margin-left:5px ;
+            color: white;
+        }
+        .invisivel
+        {
+            width:6%;
+            height: 6vh;
+           
+        }
+        .print
+        {
+            width:6%;
+            height: 6vh;
+            background-color: rgb(3, 3, 3);
+            margin-left: 5px;
+            color: white;
+        }
+        .scroll
+        {
+            width:6%;
+            height: 6vh;
+            background-color: rgb(3, 3, 3);
+            margin-left:5px ;
+            color: white;
+        }
+        .pause
+        {
+            width:6%;
+            height: 6vh;
+            background-color: rgb(3, 3, 3);
+            margin-left:5px ;
+            color: white;
+        }
+        .D4
+        {
+            width:100%;
+            height: 10vh;
+            display: flex;
+            flex-direction: row;
+            justify-items: center;
+            justify-content: space-around;
+            align-items: center;
+            align-content: center;
+        }
+        .aspas
+        {
+            width:6%;
+            height: 6vh;
+            background-color: rgb(3, 3, 3);
+            margin-left:5px ;
+            color: white;
+        }
+        .N1
+        {
+            width:6%;
+            height: 6vh;
+            background-color: rgb(3, 3, 3);
+            margin-left:5px ;
+            color: white;
+        }
+        .N2
+        {
+            width:6%;
+            height: 6vh;
+            background-color: rgb(3, 3, 3);
+            margin-left:5px ;
+            color: white;
+        }
+        .N3
+        {
+            width:6%;
+            height: 6vh;
+            background-color: rgb(3, 3, 3);
+            margin-left:5px ;
+            color: white;
+        }
+        .N4
+        {
+            width:6%;
+            height: 6vh;
+            background-color: rgb(3, 3, 3);
+            margin-left:5px ;
+            color: white;
+        }
+        .N5
+        {
+            width:6%;
+            height: 6vh;
+            background-color: rgb(3, 3, 3);
+            margin-left:5px ;
+            color: white;
+        }
+        .N6
+        {
+            width:6%;
+            height: 6vh;
+            background-color: rgb(3, 3, 3);
+            margin-left:5px ;
+            color: white;
+        }
+        .N7
+        {
+            width:6%;
+            height: 6vh;
+            background-color: rgb(3, 3, 3);
+            margin-left:5px ;
+            color: white;
+        }
+        .N8
+        {
+            width:6%;
+            height: 6vh;
+            background-color: rgb(3, 3, 3);
+            margin-left:5px ;
+            color: white;
+        }
+        .N9
+        {
+            width:6%;
+            height: 6vh;
+            background-color: rgb(3, 3, 3);
+            margin-left:5px ;
+            color: white;
+        }
+        .N0
+        {
+            width:6%;
+            height: 6vh;
+            background-color: rgb(3, 3, 3);
+            margin-left:5px ;
+            color: white;
+        }
+        .TRAÇO
+        {
+            width:6%;
+            height: 6vh;
+            background-color: rgb(3, 3, 3);
+            margin-left:5px ;
+            color: white;
+        }
+        .IGUAL
+        {
+            width:6%;
+            height: 6vh;
+            background-color: rgb(3, 3, 3);
+            margin-left:5px ;
+            color: white;
+        }
+        .BACKSPACE
+        {
+            width:9%;
+            height: 6vh;
+            background-color: rgb(3, 3, 3);
+            margin-left:5px ;
+            color: white;
+            font-size: 10px;
+        }
+        .INSERT
+        {
+            width:6%;
+            height: 6vh;
+            background-color: rgb(3, 3, 3);
+            margin-left:5px ;
+            color: white;
+            font-size: 15px;
+        }
+        .HOME
+        {
+            width:6%;
+            height: 6vh;
+            background-color: rgb(3, 3, 3);
+            margin-left:5px ;
+            color: white;
+            font-size: 15px;
+        }
+        .PAGE
+        {
+            width:6%;
+            height: 6vh;
+            background-color: rgb(3, 3, 3);
+            margin-left:5px ;
+            color: white;
+            font-size: 15px;
+        }
+        .NUM
+        {
+            width:6%;
+            height: 6vh;
+            background-color: rgb(3, 3, 3);
+            margin-left:5px ;
+            color: white;
+            font-size: 15px;
+        }
+        .barra1
+        {
+            width:6%;
+            height: 6vh;
+            background-color: rgb(3, 3, 3);
+            margin-left:5px ;
+            color: white;
+            
+        }
+        .asterisco
+        {
+            width:6%;
+            height: 6vh;
+            background-color: rgb(3, 3, 3);
+            margin-left:5px ;
+            color: white;
+            
+        }
+        .TRAÇO2
+        {
+            width:6%;
+            height: 6vh;
+            background-color: rgb(3, 3, 3);
+            margin-left:5px ;
+            color: white;
+           
+        }
+        .ENTER
+        {
+            width:6%;
+            height: 6vh;
+            background-color: rgb(3, 3, 3);
+            margin-left:5px ;
+            color: white;
+        }
+        .ESPAÇO
+        {
+            width:20%;
+            height: 6vh;
+            background-color: rgb(3, 3, 3);
+            margin-left:5px ;
+            color: white; 
+        }
+        
+
+
+    </style>
+</head>
+<body>
+    
+
+<div class="D1">
+    <div class="D2">
+    <div class="esc"> ESC </div>
+    <div class="invisivel"></div>
+    <div class="F1"> F1 </div>
+    <div class="F2"> F2 </div>
+    <div class="F3"> F3 </div>
+    <div class="F4"> F4 </div>
+    <div class="invisivel"></div>
+    <div class="F5"> F5 </div>
+    <div class="F6"> F6 </div>
+    <div class="F7"> F7 </div>
+    <div class="F8"> F8 </div>
+    <div class="invisivel"></div>
+    <div class="F9"> F9 </div>
+    <div class="F10"> F10 </div>
+    <div class="F11"> F11 </div>
+    <div class="F12"> F12 </div>
+    <div class="invisivel"></div>
+    <div class="print"> PRINT SCREEN </div>
+    <div class="scroll"> SCROLL LOCK </div>
+    <div class="pause"> PAUSE BREAK </div>
+
+    </div>
+    <div class="D3">
+        <div class="D4">
+            <div class="aspas"> " </div>  
+            <div class="N1"> 1 </div> 
+            <div class="N2"> 2 </div> 
+            <div class="N3"> 3 </div> 
+            <div class="N4"> 4 </div> 
+            <div class="N5"> 5 </div> 
+            <div class="N6"> 6 </div> 
+            <div class="N7"> 7 </div> 
+            <div class="N8"> 8 </div> 
+            <div class="N9"> 9 </div> 
+            <div class="N0"> 0 </div> 
+            <div class="TRAÇO"> _ </div>
+            <div class="IGUAL"> = </div>
+            <div class="BACKSPACE"> BACKSPACE </div>
+            <div class="invisivel"></div>
+            <div class="INSERT"> INSERT </div>
+            <div class="HOME"> HOME </div>
+            <div class="PAGE"> PAGE UP </div>
+            <div class="invisivel"></div>
+            <div class="NUM"> NUM LOCK </div>
+            <div class="barra1"> / </div>
+            <div class="asterisco"> * </div>
+            <div class="TRAÇO2"> - </div>
+
+
+        </div>
+        <div class="D4">
+            <div class="aspas"> TAB </div>  
+            <div class="N1"> Q </div> 
+            <div class="N2"> W </div> 
+            <div class="N3"> E </div> 
+            <div class="N4"> R </div> 
+            <div class="N5"> T </div> 
+            <div class="N6"> Y </div> 
+            <div class="N7"> U </div> 
+            <div class="N8"> I </div> 
+            <div class="N9"> O </div> 
+            <div class="N0"> P </div> 
+            <div class="TRAÇO"> ´ </div>
+            <div class="IGUAL"> { </div>
+            <div class= "ENTER"> ENTER </div>
+            <div class="invisivel"></div>
+            <div class="INSERT"> DELETE </div>
+            <div class="HOME"> END </div>
+            <div class="PAGE"> PAGE DOWN </div>
+            <div class="invisivel"></div>
+            <div class="NUM"> 7 </div>
+            <div class="barra1"> 8 </div>
+            <div class="asterisco"> 9 </div>
+            <div class="TRAÇO2"> + </div>
+    
+
+        </div>
+        <div class="D4">
+            <div class="aspas"> CAPS LOCK</div>  
+            <div class="N1"> A </div> 
+            <div class="N2"> S </div> 
+            <div class="N3"> D </div> 
+            <div class="N4"> F </div> 
+            <div class="N5"> G </div> 
+            <div class="N6"> H</div> 
+            <div class="N7"> J </div> 
+            <div class="N8"> K </div> 
+            <div class="N9"> L </div> 
+            <div class="N0"> Ç </div> 
+            <div class="TRAÇO"> ~ </div>
+            <div class="IGUAL"> } </div>
+            <div class="invisivel"></div>
+            <div class="invisivel"></div>
+            <div class="invisivel"></div>
+            <div class="invisivel"></div>
+            <div class="invisivel"></div>
+            <div class="invisivel"></div>
+            <div class="NUM"> 4 </div>
+            <div class="barra1"> 5 </div>
+            <div class="asterisco"> 6 </div>
+            <div class="TRAÇO2"> . </div>
+    
+
+        </div>
+        <div class="D4">
+            <div class="aspas"> SHIFT</div>  
+            <div class="N1"> | </div> 
+            <div class="N2"> Z </div> 
+            <div class="N3"> X </div> 
+            <div class="N4"> C </div> 
+            <div class="N5"> V </div> 
+            <div class="N6"> B</div> 
+            <div class="N7"> N </div> 
+            <div class="N8"> M </div> 
+            <div class="N9"> , </div> 
+            <div class="N0"> > </div> 
+            <div class="TRAÇO"> : </div>
+            <div class="IGUAL"> ? </div>
+            <div class="IGUAL"> SHIFT </div>
+            <div class="invisivel"></div>
+            <div class="IGUAL"> ⇧ </div>
+            <div class="invisivel"></div>
+            <div class="NUM"> 1 </div>
+            <div class="barra1"> 2 </div>
+            <div class="asterisco"> 3 </div>
+            <div class="TRAÇO2"> ENTER </div>
+    
+
+        </div>
+        <div class="D4">
+            <div class="N1"> CTRL</div>  
+            <div class="N1">  </div> 
+            <div class="N2"> ALT </div> 
+            <div class="ESPAÇO">  </div> 
+            <div class="N4"> ALT GR </div> 
+            <div class="N5">  </div> 
+            <div class="N6"> </div> 
+            <div class="N7"> CTRL </div> 
+            <div class="N8"> ⇦ </div> 
+            <div class="N9">   ⇩ </div> 
+            <div class="N0"> ⇨ </div> 
+            <div class="TRAÇO"> 0 </div>
+            <div class="IGUAL"> , </div>
+           
+    
+
+        </div>
+    </div>
+</div>
+
+
+</body>
+
+<script>
+    
+document.onkeydown = Pega_Tecla;
+
+function Pega_Tecla(e) 
+{	
+    e = e || window.event;
+
+    tecla = e.keyCode;
+    console.log(tecla); // MOSTRA O CÓDIGO DA TECLA PRESSIONADA
+
+    
+
+
+
+}
+</script>
+
+</html>
